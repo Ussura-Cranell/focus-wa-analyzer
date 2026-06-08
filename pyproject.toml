@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "focus-forensics"
+version = "1.0.0"
+description = "FOCUS: Forensic Object Capture & Unified Scan. Universal digital forensics analyzer with SQLite storage and HMAC integrity."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Ussura Cranell", email = "ussura@internet.ru"}
+]
+requires-python = ">=3.9"
+dependencies = [
+    "exifread>=3.0.0",
+    "filetype>=1.2.0",
+    "pypdf>=3.17.0",
+    "mutagen>=1.47.0",
+    "tabulate>=0.9.0",
+    "tqdm>=4.66.0",
+]
+
+[project.scripts]
+focus = "cli:main"
