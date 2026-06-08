@@ -286,7 +286,7 @@ tests/
 ├── test_forensic.py          # спуфинг, тамперинг
 ├── test_adb_unit.py          # моки ADB
 ├── test_adb_integration.py   # эмуляция ADB
-── test_extractor.py         # извлечение метаданных
+── test_extractor.py          # извлечение метаданных
 ├── test_parsers.py           # парсеры форматов
 ├── test_storage.py           # SQLite/JSON
 ├── test_audit.py             # аудит-лог
@@ -307,7 +307,7 @@ tests/
 
 ```
 focus/
-── focus.py                  # CLI
+── focus.py                   # CLI
 ├── config.py                 # конфигурация, HMAC
 ├── core/
 │   ├── models.py             # FileRecord, Manifest
